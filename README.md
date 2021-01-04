@@ -116,18 +116,20 @@ While setting up the mysql connector, we set up one root username and one passwo
 
 While executing our files, kindly change the root username and the password at the very beginning of all .py files.  
 
-We have 1 SQL files- 
-parking_lots_tables.sql -> this contains the tables, constraints. 
+We have 1 SQL file\
+[parking_lots_tables.sql](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/parking_lots_tables.sql) -> this contains the tables, constraints. 
 
 Instead of having a separate SQL file for insertions, we have used functions in the .py files to populate the database.
 
 
-We have 3 python files- tablecreation.py, ValueInsertion.py, Final_Project.py.
+there are 3 python files- tablecreation.py, ValueInsertion.py, Final_Project.py.
 Run the files in this order only :
 
-1. The python file Table_creation_f.py creates a database called 'project' in the mysql servercand then proceeds to
+1. The python file [Table_Creation.py](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/Table_Creation.py) creates a database called 'project' in the mysql servercand then proceeds to
 build all the tables inside. This can aslo be achieved using the sql file. 
 
-2. Value_Insertion_f.py populates all the tables - using the sample data provided by the instructor.
+2. [Value_Insertion.py](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/Value_Insertion.py) populates all the tables - using the sample data provided by the instructor.
 
-3. final_project.py - it has some functions needed and the user interface to select if you are a student/employee or an administrator.
+3. [final_project.py](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/final_project%20.py) - it has some functions needed and the user interface to select if you are a student/employee or an administrator.
+
+4. [description_report.pdf](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/description_report.pdf) :detailed report on the design choices and ER diagram
