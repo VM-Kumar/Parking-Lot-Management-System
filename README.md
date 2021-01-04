@@ -1,6 +1,6 @@
 # Parking Lot Management System
 **Goal** : to design of a University Parking Lot to issue permits for different categories of users and to regulate violations. 
-The description of design required is as follows:/
+The description of design required is as follows:\
 **Application Description**
 The goal of this project is for you to develop a database application to help University Parking
 Services (UPS) manage the campus parking lots and its users. The UPS issues parking permits
