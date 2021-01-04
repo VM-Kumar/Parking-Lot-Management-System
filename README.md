@@ -64,7 +64,7 @@ students (S), but students cannot park in employee zones except after work hours
 after 5pm.
 3. A visitor permit allows a specific car in a specific visitor space and must include the
 appropriate special type designation to park in dedicated type visitor spaces like for
-electric cars. A visitor permit becomes invalid for any parking after permit expiration time.\\
+electric cars. A visitor permit becomes invalid for any parking after permit expiration time.\
 --------------------------------------------------------------------------------------------------------------------------\
 **Citations** are issued to vehicles by UPS employees that violate parking regulations (the process
 of issuing is discussed below). A citation includes a unique citation number, car license number,
