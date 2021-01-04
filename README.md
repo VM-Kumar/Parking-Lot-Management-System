@@ -12,7 +12,7 @@ and employees all have a univid (integer) which is a unique identifier for ident
 linking them to their vehicles as well as an attribute status that is either ‘S’ or ‘E’ or ‘A’
 depending on whether a student or an employee or administrator (who is also an employee but
 works with UPS).\
------------------------------------------------------------------------------------------------------------------------------\
+------------------------------------------------------------------------------------------------------------------------------\
 **Parking lots** are identified by a unique name and an address and a zone’s designation that
 determines who can park in the lot. Each zone has an identifier that is at most two characters
 long: A, B, C, D, AS, BS, CS, DS, V. A parking lot can have a designation that includes multiple
@@ -26,6 +26,7 @@ For example, say a lot is designated with A / B / V zones and there are 100 spac
 spaces 90 - 100 may be dedicated to visitors zone V (spaces 1 to 89 in this case would be
 considered both A and B spaces). Some spaces in a lot can have a dedicated type e.g. electric
 vehicle or handicap, otherwise they are just regular spaces.\
+-------------------------------------------------------------------------------------------------------------------------------\
 **Permits** fall broadly into two categories Visitor and NonVisitor. Each permit has a unique permit
 identifier (8 character string length, begins with two digits for the year, one or two characters for
 the zone, then a combination of numbers and characters for the remainder), zone identifier, a
@@ -64,7 +65,7 @@ after 5pm.
 3. A visitor permit allows a specific car in a specific visitor space and must include the
 appropriate special type designation to park in dedicated type visitor spaces like for
 electric cars. A visitor permit becomes invalid for any parking after permit expiration time.\
-
+-----------------------------------------------------------------------------------------------------------------------------------\
 **Citations** are issued to vehicles by UPS employees that violate parking regulations (the process
 of issuing is discussed below). A citation includes a unique citation number, car license number,
 model, color, date, lot, time, violation category, appropriate fee for the category and payment
@@ -93,7 +94,7 @@ etc are computed based on the description given earlier.\
 ● CheckVValidParking (CurrentTime, Date,Space#, Lot, License#): checks if car has valid
 permit in visitors lot.\
 ● CheckNVValidParking(time, permit#): checks valid parking in nonvisitor parking lot.\
-
+------------------------------------------------------------------------------------------------------------------------------------\
 **User Interfaces** assume that your system has a main entry screen where users can select an
 option of what role they want to play (admin, university user, visitor). Then, for each role, the list
 of functions that they can perform will be listed and a user can select which function they want
@@ -106,10 +107,10 @@ and users selecting the corresponding number for the option they want, should su
 For example, one the main screen you may present options like
 1. UPS Admin Role
 2. Employee Role
-3. Student Role
-
+3. Student Role\
+------------------------------------------------------------------------------------------------------------------------------------\
 **INSTRUCTIONS TO RUN THE FILES:**\
------------------------------------------\
+
 The MySQL connector has been used to provide the interface and the functionalities between Python and SQL.
 While setting up the mysql connector, we set up one root username and one password. 
 
