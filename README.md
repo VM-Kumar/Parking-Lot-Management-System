@@ -80,7 +80,7 @@ assume they include a phone number when requesting a permit.
 Anyone can pay their citation by invoking the PayCitation ( ) procedure. (For our purposes, all
 this citation will do is change the status of citation from unpaid to paid).
 The administrators of the system (i.e. university employees in the UPS and are designated ‘A’)
-have a few functions that they can perform.
+have a few functions that they can perform.\
 ● AddLot (... ): This function should take lot identifier and address of lot, number of spaces
 in lot, beginning space number, initial zone designation (single zone initially).\
 ● AssignZoneToLot (...):\
