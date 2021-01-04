@@ -65,7 +65,7 @@ after 5pm.
 3. A visitor permit allows a specific car in a specific visitor space and must include the
 appropriate special type designation to park in dedicated type visitor spaces like for
 electric cars. A visitor permit becomes invalid for any parking after permit expiration time.\
--------------------------------------------------------------------------------------------------------------------------------------\
+-----------------------------------------------------------------------------------------------------------------------------------\
 **Citations** are issued to vehicles by UPS employees that violate parking regulations (the process
 of issuing is discussed below). A citation includes a unique citation number, car license number,
 model, color, date, lot, time, violation category, appropriate fee for the category and payment
@@ -94,7 +94,7 @@ etc are computed based on the description given earlier.\
 ● CheckVValidParking (CurrentTime, Date,Space#, Lot, License#): checks if car has valid
 permit in visitors lot.\
 ● CheckNVValidParking(time, permit#): checks valid parking in nonvisitor parking lot.\
-------------------------------------------------------------------------------------------------------------------------------\
+----------------------------------------------------------------------------------------------------------------------\
 **User Interfaces** assume that your system has a main entry screen where users can select an
 option of what role they want to play (admin, university user, visitor). Then, for each role, the list
 of functions that they can perform will be listed and a user can select which function they want
@@ -108,7 +108,7 @@ For example, one the main screen you may present options like
 1. UPS Admin Role
 2. Employee Role
 3. Student Role\
-------------------------------------------------------------------------------------------------------------------------------\
+----------------------------------------------------------------------------------------------------------------------\
 **INSTRUCTIONS TO RUN THE FILES:**\
 
 The MySQL connector has been used to provide the interface and the functionalities between Python and SQL.
