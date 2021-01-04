@@ -112,20 +112,20 @@ For example, one the main screen you may present options like
 **INSTRUCTIONS TO RUN THE FILES:**
 
 The MySQL connector has been used to provide the interface and the functionalities between Python and SQL.
-While setting up the mysql connector, we set up one root username and one password. 
+While setting up the mysql connector, it is set up with one root username and one password. 
 
-While executing our files, kindly change the root username and the password at the very beginning of all .py files.  
+While executing the files, kindly change the root username and the password at the very beginning of all .py files.  
 
-We have 1 SQL file\
+there is 1 SQL file\
 [parking_lots_tables.sql](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/parking_lots_tables.sql) -> this contains the tables, constraints. 
 
-Instead of having a separate SQL file for insertions, we have used functions in the .py files to populate the database.
+Instead of having a separate SQL file for insertions, functions in the .py files are used to populate the database.
 
 
 there are 3 python files- tablecreation.py, ValueInsertion.py, Final_Project.py.
 Run the files in this order only :
 
-1. The python file [Table_Creation.py](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/Table_Creation.py) creates a database called 'project' in the mysql servercand then proceeds to
+1. The python file [Table_Creation.py](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/Table_Creation.py) creates a database called 'project' in the mysql server and then proceeds to
 build all the tables inside. This can aslo be achieved using the sql file. 
 
 2. [Value_Insertion.py](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/Value_Insertion.py) populates all the tables - using the sample data provided by the instructor.
