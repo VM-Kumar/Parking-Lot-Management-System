@@ -64,7 +64,7 @@ students (S), but students cannot park in employee zones except after work hours
 after 5pm.
 3. A visitor permit allows a specific car in a specific visitor space and must include the
 appropriate special type designation to park in dedicated type visitor spaces like for
-electric cars. A visitor permit becomes invalid for any parking after permit expiration time.\
+electric cars. A visitor permit becomes invalid for any parking after permit expiration time.
 --------------------------------------------------------------------------------------------------------------------------\
 **Citations** are issued to vehicles by UPS employees that violate parking regulations (the process
 of issuing is discussed below). A citation includes a unique citation number, car license number,
@@ -101,7 +101,6 @@ of functions that they can perform will be listed and a user can select which fu
 to perform. University users should have a login step before their functions are displayed.
 (Visitors should not need to log in because they dont have univids. Their functions should be
 available once they choose that role). These user interfaces do not have to be graphical user
-3
 interfaces (but if you wish to do so that’s fine). A menu driven list e.g. numbered list of options
 and users selecting the corresponding number for the option they want, should suffice.
 For example, one the main screen you may present options like
