@@ -133,4 +133,4 @@ build all the tables inside. This can aslo be achieved using the sql file.
 
 3. [final_project.py](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/final_project%20.py) - it has some functions needed and the user interface to select if you are a student/employee or an administrator.
 
-4. [description_report.pdf](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/description_report.pdf) :detailed report on the design choices and ER diagram
+4. [description_report.pdf](https://github.com/VM-Kumar/Parking-Lot-Management-System/blob/main/description_report%20.pdf) :detailed report on the design choices and ER diagram
