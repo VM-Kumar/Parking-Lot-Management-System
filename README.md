@@ -1,7 +1,7 @@
 # Parking Lot Management System
 **Goal** : to design of a University Parking Lot to issue permits for different categories of users and to regulate violations. 
 The description of design required is as follows:\
---------------------------------------------------------\
+------------------------------------------------------------------------------------------------------------------------------\
 **Application Description**
 The goal of this project is for you to develop a database application to help University Parking
 Services (UPS) manage the campus parking lots and its users. The UPS issues parking permits
@@ -12,6 +12,7 @@ and employees all have a univid (integer) which is a unique identifier for ident
 linking them to their vehicles as well as an attribute status that is either ‘S’ or ‘E’ or ‘A’
 depending on whether a student or an employee or administrator (who is also an employee but
 works with UPS).\
+-----------------------------------------------------------------------------------------------------------------------------\
 **Parking lots** are identified by a unique name and an address and a zone’s designation that
 determines who can park in the lot. Each zone has an identifier that is at most two characters
 long: A, B, C, D, AS, BS, CS, DS, V. A parking lot can have a designation that includes multiple
