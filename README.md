@@ -67,7 +67,7 @@ electric cars. A visitor permit becomes invalid for any parking after permit exp
 of issuing is discussed below). A citation includes a unique citation number, car license number,
 model, color, date, lot, time, violation category, appropriate fee for the category and payment
 due date (which is usually 30days after citation date). A citation also has a status which is paid
-or unpaid. When it is initially issued, status is unpaid. The following are the categories and fees:
+or unpaid. When it is initially issued, status is unpaid. The following are the categories and fees:\
 ● Invalid Permit ($20)\
 ● Expired Permit ($25)\
 ● No Permit ($40)\
