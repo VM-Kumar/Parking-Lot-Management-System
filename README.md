@@ -10,7 +10,7 @@ UPS issues tickets/citations for parking violations and collects fees for them. 
 and employees all have a univid (integer) which is a unique identifier for identifying them and
 linking them to their vehicles as well as an attribute status that is either ‘S’ or ‘E’ or ‘A’
 depending on whether a student or an employee or administrator (who is also an employee but
-works with UPS).
+works with UPS).\
 **Parking lots** are identified by a unique name and an address and a zone’s designation that
 determines who can park in the lot. Each zone has an identifier that is at most two characters
 long: A, B, C, D, AS, BS, CS, DS, V. A parking lot can have a designation that includes multiple
@@ -23,7 +23,7 @@ has V as part of its zone designation, a set of spaces within that lot are dedic
 For example, say a lot is designated with A / B / V zones and there are 100 spaces in the lot,
 spaces 90 - 100 may be dedicated to visitors zone V (spaces 1 to 89 in this case would be
 considered both A and B spaces). Some spaces in a lot can have a dedicated type e.g. electric
-vehicle or handicap, otherwise they are just regular spaces.
+vehicle or handicap, otherwise they are just regular spaces.\
 **Permits** fall broadly into two categories Visitor and NonVisitor. Each permit has a unique permit
 identifier (8 character string length, begins with two digits for the year, one or two characters for
 the zone, then a combination of numbers and characters for the remainder), zone identifier, a
@@ -40,16 +40,16 @@ UPS employees, visitor’s permits are obtained by users invoking a procedure wi
 input GetVisitorPermit (Lot, duration, time beginning, type = default is standard, …). Below are
 some functions that need to be supported. For all functions, we give a suggestion of inputs.
 However, you are to think through and decide the final list of inputs and outputs for each
-function. Below, we include a general description and which user role can execute it.
+function. Below, we include a general description and which user role can execute it.\
 ● ExitLot(): takes a permit number as input makes the status of a visitor space available
 and computes any time overages for the reservation (in the case that a visitor
 overstayed their booked amount of time). This can just be recorded as a time overage
-for the permit.
+for the permit.\
 ● ChangeVehicleList(): this is to allow university users (employees) modify the vehicles on
 their permit. They may remove or add vehicles. However, note the students can only
 have one vehicle on a permit at a time, employees up to 2. The input to this should be
 the permit number and univid (use for verifying if the correct user is making the
-modification)
+modification)\
 **The following are some rules and restrictions concerning permits and their usage in lots.**
 1. To park in a lot, a user’s permit must have as its zone, one of the zones designated for
 that lot. For example, a lot with zone designation A / B / C allows users with permits
@@ -61,16 +61,16 @@ students (S), but students cannot park in employee zones except after work hours
 after 5pm.
 3. A visitor permit allows a specific car in a specific visitor space and must include the
 appropriate special type designation to park in dedicated type visitor spaces like for
-electric cars. A visitor permit becomes invalid for any parking after permit expiration time.
+electric cars. A visitor permit becomes invalid for any parking after permit expiration time.\
 
 **Citations** are issued to vehicles by UPS employees that violate parking regulations (the process
 of issuing is discussed below). A citation includes a unique citation number, car license number,
 model, color, date, lot, time, violation category, appropriate fee for the category and payment
 due date (which is usually 30days after citation date). A citation also has a status which is paid
 or unpaid. When it is initially issued, status is unpaid. The following are the categories and fees:
-● Invalid Permit ($20)
-● Expired Permit ($25)
-● No Permit ($40)
+● Invalid Permit ($20)\
+● Expired Permit ($25)\
+● No Permit ($40)\
 IssueCitation () is a procedure that generates with appropriate information as described above.
 A citation should alert the user via a notification. No integration with mail or sms is required.
 However, notification should be achieved by inserting a tuple in a “notifications” table. The
@@ -82,15 +82,15 @@ this citation will do is change the status of citation from unpaid to paid).
 The administrators of the system (i.e. university employees in the UPS and are designated ‘A’)
 have a few functions that they can perform.
 ● AddLot (... ): This function should take lot identifier and address of lot, number of spaces
-in lot, beginning space number, initial zone designation (single zone initially).
-● AssignZoneToLot (...):
-● AssignTypeToSpace ( ...…. ):
+in lot, beginning space number, initial zone designation (single zone initially).\
+● AssignZoneToLot (...):\
+● AssignTypeToSpace ( ...…. ):\
 ● AssignPermit (univid, type, zone, ...…. ): assigns a permit to user with univid for parking
 zone given in input and type (default is used if no input is given). Things like expiration
-etc are computed based on the description given earlier.
+etc are computed based on the description given earlier.\
 ● CheckVValidParking (CurrentTime, Date,Space#, Lot, License#): checks if car has valid
-permit in visitors lot.
-● CheckNVValidParking(time, permit#): checks valid parking in nonvisitor parking lot.
+permit in visitors lot.\
+● CheckNVValidParking(time, permit#): checks valid parking in nonvisitor parking lot.\
 
 **User Interfaces** assume that your system has a main entry screen where users can select an
 option of what role they want to play (admin, university user, visitor). Then, for each role, the list
