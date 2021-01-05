@@ -110,6 +110,12 @@ For example, one the main screen you may present options like
 3. Student Role
 
 ----------------------------------------------------------------------------------------------------------------------\
+**Sample Tables and Data**\
+![Capture1](https://user-images.githubusercontent.com/70597312/103604960-80a51f00-4f38-11eb-8532-0c92daf8c8de.PNG)
+![Capture2](https://user-images.githubusercontent.com/70597312/103604952-7d119800-4f38-11eb-9623-529d6eb321f5.PNG)
+![Capture3](https://user-images.githubusercontent.com/70597312/103604955-7edb5b80-4f38-11eb-88ad-8f6265c03bd0.PNG)
+![capture222](https://user-images.githubusercontent.com/70597312/103604957-7f73f200-4f38-11eb-8797-f4702f012ca8.png)
+-----------------------------------------------------------------------------------------------------------------------\
 **INSTRUCTIONS TO RUN THE FILES:**
 
 The MySQL connector has been used to provide the interface and the functionalities between Python and SQL.
